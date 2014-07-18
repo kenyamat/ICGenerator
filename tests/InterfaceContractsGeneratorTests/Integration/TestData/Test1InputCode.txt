@@ -1,0 +1,29 @@
+﻿using System;
+
+namespace TestSpace
+{
+    /// <summary>
+    /// ITest interface
+    /// </summary>
+    public interface ITest
+    {
+        /// <summary>
+        /// Indexer
+        /// </summary>
+        /// <param name="i">index</param>
+        /// <returns>value</returns>
+        string this[string i] { get; set; }
+
+        /// <summary>
+        /// Gets or sets the Name
+        /// </summary>
+        string Name { get; set; }
+
+        /// <summary>
+        /// Creates something.
+        /// </summary>
+        /// <param name="name">the name</param>
+        /// <returns>something</returns>
+        string Create(string name);
+    }
+}

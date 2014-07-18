@@ -1,0 +1,11 @@
+InterfaceContractsGenerator.v12.suo
+src/InterfaceContractsGenerator/InterfaceContractsGenerator.csproj.user
+src/*/Debug/*
+src/*/bin/*
+src/*/obj/*
+tests/InterfaceContractsGeneratorTests/InterfaceContractsGeneratorTests.csproj.user
+tests/*/bin/*
+tests/*/obj/*
+tests/*/FakesAssemblies
+packages/*
+TestResults/*

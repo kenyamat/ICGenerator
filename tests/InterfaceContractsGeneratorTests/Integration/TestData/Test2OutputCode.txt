@@ -1,0 +1,10 @@
+﻿namespace TestSpace.Contracts
+{
+    using System;
+    using System.Diagnostics.Contracts;
+
+    [ContractClassFor(typeof(ITest))]
+    internal abstract class TestContracts : ITest
+    {
+    }
+}

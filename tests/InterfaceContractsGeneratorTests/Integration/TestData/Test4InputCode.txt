@@ -1,0 +1,10 @@
+﻿using System;
+
+namespace TestSpace
+{
+    public interface ITest
+    {
+        string Name { get; set; }
+        string this[string i] { get; set; }
+    }
+}

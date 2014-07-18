@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceContractsGenerator", "src\InterfaceContractsGenerator\InterfaceContractsGenerator.csproj", "{AFFD916B-5E16-4D2A-ADEB-F2CAD9928621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceContractsGeneratorTests", "tests\InterfaceContractsGeneratorTests\InterfaceContractsGeneratorTests.csproj", "{D989E4C2-19F3-4940-A162-6623A7028709}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{23ABBA6C-7C26-4EB5-AEC5-B0223388CBFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{70890B71-FE07-43B4-973B-4637BB76540A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{4F640518-3839-474C-B00C-A4A8B14E430B}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFFD916B-5E16-4D2A-ADEB-F2CAD9928621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFFD916B-5E16-4D2A-ADEB-F2CAD9928621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFFD916B-5E16-4D2A-ADEB-F2CAD9928621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFFD916B-5E16-4D2A-ADEB-F2CAD9928621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D989E4C2-19F3-4940-A162-6623A7028709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D989E4C2-19F3-4940-A162-6623A7028709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D989E4C2-19F3-4940-A162-6623A7028709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D989E4C2-19F3-4940-A162-6623A7028709}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AFFD916B-5E16-4D2A-ADEB-F2CAD9928621} = {23ABBA6C-7C26-4EB5-AEC5-B0223388CBFD}
+		{D989E4C2-19F3-4940-A162-6623A7028709} = {70890B71-FE07-43B4-973B-4637BB76540A}
+	EndGlobalSection
+EndGlobal

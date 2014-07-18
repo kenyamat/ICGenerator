@@ -1,0 +1,8 @@
+﻿namespace TestSpace
+{
+    using System;
+
+    public interface ITest
+    {
+    }
+}

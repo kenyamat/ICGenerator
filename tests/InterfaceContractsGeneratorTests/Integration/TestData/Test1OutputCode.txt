@@ -1,0 +1,52 @@
+﻿using System;
+using System.Diagnostics.Contracts;
+
+namespace TestSpace.Contracts
+{
+    /// <summary>
+    /// ITest interface
+    /// </summary>
+    [ContractClassFor(typeof(ITest))]
+    internal abstract class TestContracts : ITest
+    {
+        /// <summary>
+        /// Indexer
+        /// </summary>
+        /// <param name="i">index</param>
+        /// <returns>value</returns>
+        public string this[string i]
+        {
+            get
+            {
+                Contract.Requires<System.ArgumentNullException>(i != null, "'i' must not be null.");
+                return default(string);
+            }
+            set
+            {
+                Contract.Requires<System.ArgumentNullException>(i != null, "'i' must not be null.");
+                Contract.Requires<System.ArgumentNullException>(value != null, "'value' must not be null.");
+            }
+        }
+
+        /// <summary>
+        /// Gets or sets the Name
+        /// </summary>
+        public string Name
+        {
+            get { return default(string); }
+            set {}
+        }
+
+        /// <summary>
+        /// Creates something.
+        /// </summary>
+        /// <param name="name">the name</param>
+        /// <returns>something</returns>
+        public string Create(string name)
+        {
+            Contract.Requires<System.ArgumentNullException>(name != null, "'name' must not be null.");
+            Contract.Ensures(Contract.Result<string>() != null, "The return value must not be null.");
+            return default(string);
+        }
+    }
+}

@@ -1,0 +1,29 @@
+﻿using System;
+using System.Diagnostics.Contracts;
+
+namespace TestSpace.Contracts
+{
+    [ContractClassFor(typeof(ITest))]
+    internal abstract class TestContracts : ITest
+    {
+        public string Name
+        {
+            get { return default(string); }
+            set {}
+        }
+
+        public string this[string i]
+        {
+            get
+            {
+                Contract.Requires<System.ArgumentNullException>(i != null, "'i' must not be null.");
+                return default(string);
+            }
+            set
+            {
+                Contract.Requires<System.ArgumentNullException>(i != null, "'i' must not be null.");
+                Contract.Requires<System.ArgumentNullException>(value != null, "'value' must not be null.");
+            }
+        }
+    }
+}
