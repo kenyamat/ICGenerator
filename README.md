@@ -21,7 +21,7 @@ InterfaceContractsGenerator.exe -i "C:\GitProjects\Battle\Battle.Domain" -o "C:\
 
 ## Limitations
 * This library just appends `Contract.Requires<System.ArgumentNullException>` for parameters and `Contract.Ensure` for return values. Please add more detailed contracts If you need.
-* Multiple inheritance are not supported. Please modify generated codes.
+* Inheritance is not supported. Please modify generated codes.
 
 ## Sample Output
 
